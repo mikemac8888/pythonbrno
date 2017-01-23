@@ -1,0 +1,1 @@
+df[df.Survived == 1].groupby('Sex').mean()['Age']
